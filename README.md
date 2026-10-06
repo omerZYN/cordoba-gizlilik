@@ -1,7 +1,10 @@
 # cordoba-gizlilik
 
-Cordoba uygulamasının gizlilik politikası. GitHub Pages ile yayımlanır:
-https://omerzyn.github.io/cordoba-gizlilik/
+Cordoba uygulamasının gizlilik politikası ve destek sayfası. GitHub Pages ile yayımlanır:
 
-`index.html` uygulamanın deposundaki `docs/gizlilik.html` dosyasının kopyasıdır;
-metin değişince oradan yeniden üretilip buraya kopyalanır.
+- Gizlilik: https://omerzyn.github.io/cordoba-gizlilik/
+- Destek: https://omerzyn.github.io/cordoba-gizlilik/destek.html
+
+Buradaki sayfalar uygulamanın deposundan üretilir (`npx tsx scripts/privacy-html.ts`):
+`index.html` = `docs/gizlilik.html`, `destek.html` = `docs/destek.html`. Metin
+değişince orada yeniden üretilip buraya kopyalanır.
